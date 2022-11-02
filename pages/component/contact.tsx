@@ -27,18 +27,24 @@ const ContactMenu = () => {
                 <div className="menus">
                     <div className="row">
                         <div className="column col-3">
+                            <a href="https://t.me/nanassssa">
                             <div className="btnChat">
                                 <FaTelegram size={30}/>
                                 <span>Telegram</span>
                             </div>
+                            </a>
+                            <a href="https://wa.me/+6282228893284">
                             <div className="btnChat">
                                 <FaWhatsapp size={30}/>
                                 <span>Whatsapp</span>
                             </div>
+                            </a>
+                            <a href="https://github.com/masnasri-a/images/raw/main/Tabloid%20-%201.pdf">
                             <div className="btnChat">
                                 <FaFileDownload size={30}/>
-                                <span>Cownload CV</span>
+                                <span>Download CV</span>
                             </div>
+                            </a>
                         </div>
                         <div className="col-9">
                             <div className="row">
