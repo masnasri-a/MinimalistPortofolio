@@ -6,9 +6,13 @@ import Header from "./component/header"
 import HomeMenu from "./component/home"
 import Main from "./component/main"
 import ProjectMenu from "./component/project"
+import { BsFillChatFill } from "react-icons/bs";
+import Chat from "./component/chat"
+
 
 export default function Home() {
   const [menu, setMenu] = useState(<HomeMenu />)
+  const [chat, setChat] = useState(false)
 
   const handleMenu = (param:any) => {
     if (param == "home"){
@@ -23,15 +27,28 @@ export default function Home() {
     }
   }
 
+  const handleChat = () =>{
+    setChat(!chat)
+    console.log(chat);
+    
+  }
 
   return (
-    <div>
+    <>
       <Header onClick={handleMenu}/>
       <Main/>    
        {
         menu
        }
+       {
+          chat?(
+            <Chat />
+          ):null
+        }
+       <div className="chat" onClick={()=>handleChat()}>
+        <BsFillChatFill size={30} />
+       </div>
       <Footer/> 
-    </div>
+    </>
   )
 }

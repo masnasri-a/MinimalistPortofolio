@@ -265,3 +265,84 @@ font-size: 14px;
   border-width: 0px;
   border-bottom: 2px solid #000000;
 }
+
+.chat{
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.chatPage{
+  z-index: 100;
+  position: fixed;
+  height: 600px;
+  width: 400px;
+  bottom:60px;
+  right: 20px;
+  background-color: #D9D9D9;
+  border-radius: 10px;
+}
+
+.headerChat{
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.contentChat{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  /* height: 40px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  padding-left: 10px;
+  margin-right: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  
+}
+
+.contentChatPage{
+  height: 400px;
+  overflow-y: scroll;
+  /* display: flex; */
+/* flex-direction: column-reverse; */
+}
+
+.sendMessage{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.buttonMessage{
+  width: 380px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #555555;
+  color: white;
+}
+
+.inputMessage{
+  display: flex;
+  justify-content: center;
+}
+.messageChat{
+  border-radius: 10px;
+  border: 3px solid #555555;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 40px;
+  width: 380px;
+}
+
+.nasriTyping{
+  margin-left: 20px;
+  font-size: 12px;
+}
