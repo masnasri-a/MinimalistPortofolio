@@ -40,8 +40,7 @@ const Sidebar = (props: any) => {
           let classNames = "menuSidebar";
           if (index == active) {
             return (
-              <>
-                <div
+                <div key={index}
                   className="menuSidebar menuActive"
                   onClick={() => {
                     setActive(index);
@@ -51,12 +50,10 @@ const Sidebar = (props: any) => {
                   {detail.image}
                   <span>{detail.title}</span>
                 </div>
-              </>
             );
           } else {
             return (
-              <>
-                <div
+                <div key={index}
                   className={classNames}
                   onClick={() => {
                     setActive(index);
@@ -66,7 +63,6 @@ const Sidebar = (props: any) => {
                   {detail.image}
                   <span>{detail.title}</span>
                 </div>
-              </>
             );
           }
         })}

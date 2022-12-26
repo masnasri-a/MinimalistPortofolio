@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 
 import { motion } from "framer-motion";
 
-
+import 'react-quill/dist/quill.snow.css'
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";

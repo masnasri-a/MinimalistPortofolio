@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fasthand&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-.unselect{
+.unselect {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -12,7 +12,7 @@
   margin-top: 20px;
   width: 900px;
   display: flex;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   justify-content: space-between;
 }
 
@@ -38,7 +38,7 @@
   margin-top: 5%;
   display: flex;
   justify-content: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   align-items: flex-end;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .nasri {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
@@ -60,7 +60,7 @@
   color: rgba(41, 40, 40, 0.803);
   display: flex;
   justify-content: center;
-  font-family: 'Fasthand', cursive;
+  font-family: "Fasthand", cursive;
   font-size: 24px;
 }
 
@@ -72,7 +72,7 @@
   margin-left: auto;
   margin-right: auto;
   width: fit-content;
-  font-family: 'Raleway';
+  font-family: "Raleway";
 }
 
 .footerContent {
@@ -92,7 +92,7 @@
   height: 50px;
   border-radius: 15px;
   color: #000000;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,7 +110,7 @@
 }
 
 .quotes {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-size: 32px;
   text-align: center;
   font-weight: 600;
@@ -120,7 +120,7 @@
 }
 
 .creator {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   display: flex;
   justify-content: center;
 }
@@ -132,7 +132,7 @@
 
 .descIntro {
   padding-top: 10px;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -140,12 +140,11 @@
   /* or 21px */
 
   letter-spacing: 0.015em;
-
 }
 
 .introduce {
   padding-top: 10px;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -172,12 +171,11 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
-
 }
 
 .descProject {
   margin-top: 20px;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -188,13 +186,12 @@
   padding-top: 5%;
   display: flex;
   justify-content: center;
-
 }
 
 .btnChat {
   color: #000000;
   cursor: pointer;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -202,7 +199,7 @@
   letter-spacing: 0.015em;
   display: flex;
   align-items: center;
-  background-color: #E8E8E8;
+  background-color: #e8e8e8;
   height: 50px;
   padding-left: 15px;
   margin-right: 15px;
@@ -210,88 +207,85 @@
   margin-top: 10px;
 }
 
-.column{
+.column {
   border-right: 4px solid #000000;
   color: #000000;
 }
 
-
-.btnChat span{
+.btnChat span {
   padding-left: 10px;
   text-decoration: none;
 }
 
 .menus {
-
   width: 900px;
-
 }
 
-.inputData{
+.inputData {
   margin-bottom: 10px;
   font-weight: 400;
-font-size: 14px;
+  font-size: 14px;
   margin-left: 10px;
   display: grid;
   width: 90%;
 }
 
-.inputData input{
+.inputData input {
   padding-left: 20px;
   margin-top: 5px;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   border-width: 0px;
   height: 35px;
   border-bottom: 2px solid #000000;
 }
 
-.inputData input:focus{
+.inputData input:focus {
   border-width: 0px;
 }
 
-.btnSend{
+.btnSend {
   width: 100px;
 }
-.inputBtn{
+.inputBtn {
   display: flex;
-  border-color: #F1F1F1;
+  border-color: #f1f1f1;
   justify-content: flex-end;
 }
 
-.Memo{
+.Memo {
   height: 220px;
 
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   border-width: 0px;
   border-bottom: 2px solid #000000;
 }
 
-.chat{
+.chat {
   cursor: pointer;
   position: absolute;
   bottom: 20px;
   right: 20px;
 }
 
-.chatPage{
+.chatPage {
   z-index: 100;
   position: fixed;
   height: 600px;
   width: 400px;
-  bottom:60px;
+  bottom: 60px;
   right: 20px;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   border-radius: 10px;
 }
 
-.headerChat{
+.headerChat {
   font-size: 16px;
   font-weight: 600;
   margin-left: 20px;
   margin-top: 10px;
 }
 
-.contentChat{
+.contentChat {
   background-color: white;
   display: flex;
   align-items: center;
@@ -304,23 +298,22 @@ font-size: 14px;
   margin-right: 10px;
   padding-right: 10px;
   border-radius: 5px;
-  
 }
 
-.contentChatPage{
+.contentChatPage {
   height: 400px;
   overflow-y: scroll;
   /* display: flex; */
-/* flex-direction: column-reverse; */
+  /* flex-direction: column-reverse; */
 }
 
-.sendMessage{
+.sendMessage {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
 
-.buttonMessage{
+.buttonMessage {
   width: 380px;
   height: 40px;
   border-radius: 15px;
@@ -328,11 +321,11 @@ font-size: 14px;
   color: white;
 }
 
-.inputMessage{
+.inputMessage {
   display: flex;
   justify-content: center;
 }
-.messageChat{
+.messageChat {
   border-radius: 10px;
   border: 3px solid #555555;
   margin-top: 20px;
@@ -342,23 +335,23 @@ font-size: 14px;
   width: 380px;
 }
 
-.nasriTyping{
+.nasriTyping {
   margin-left: 20px;
   font-size: 12px;
 }
-.Logo{
+.Logo {
   margin-top: 40px;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
 }
-.loginPage{
+.loginPage {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
-.loginPage span{
+.loginPage span {
   color: #8a8a8a;
 }
 
@@ -366,14 +359,14 @@ font-size: 14px;
   margin-top: 20px;
   height: 40px;
   width: 300px;
-  border: 2px solid #D9D9D9;
+  border: 2px solid #d9d9d9;
   border-radius: 10px;
   padding-left: 20px;
   padding-right: 20px;
   color: #9a9a9a;
 }
 
-.buttonLogin{
+.buttonLogin {
   height: 50px;
   width: 300px;
   background-color: #555555;
@@ -385,18 +378,18 @@ font-size: 14px;
   transition: 1s;
 }
 
-.buttonLogin:hover{
+.buttonLogin:hover {
   background-color: #000000;
 }
 
-.sidebar{
+.sidebar {
   display: flex;
   /* justify-content: center; */
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   height: 100vh;
 }
 
-.menuSidebar{
+.menuSidebar {
   margin-left: 10px;
   margin-right: 10px;
   padding-left: 20px;
@@ -406,22 +399,289 @@ font-size: 14px;
   margin-top: 20px;
   transition: 1s;
   border-radius: 10px;
-  /* background-color: #555555; */
-  
 }
 
-.menuSidebar span{
-margin-left: 10px;
-font-size: 18px;
-font-weight: 600;
+.menuSidebar span {
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
-.menuSidebar:hover{
+.menuSidebar:hover {
   background-color: #555555;
   color: white;
 }
 
-.menuActive{
+.menuActive {
   background-color: #555555;
   color: white;
+}
+
+.headerNote {
+  height: 120px;
+  width: calc(100wh - 300px);
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 40px;
+  align-items: center;
+}
+
+.usernames {
+  font-size: 18px;
+  font-weight: 500;
+}
+.usernames span {
+  margin-left: 20px;
+}
+
+.mainNotes {
+  background-color: #f2f2f2;
+}
+
+.searchHeader {
+  height: 40px;
+  width: 300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid #555555;
+  box-shadow: 0px 4px 4px rgba(67, 67, 67, 0.25);
+}
+
+.menuNotes {
+  background-color: white;
+  border-radius: 20px 0px 0px 0px;
+  /* width: calc(100rem - 220px); */
+  height: calc(100vh - 120px);
+}
+.menuNotes span {
+  margin-left: 40px;
+  padding-top: 60px;
+}
+
+.addNotes {
+  cursor: pointer;
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #555555;
+  transition: 1s;
+}
+
+.addNotes:hover {
+  background-color: #555555;
+}
+
+.allPage {
+  transition: 1s;
+  background-color: #5555553f;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputNote {
+  transition: 1s;
+  width: 70vw;
+  height: 72vh;
+  background-color: white;
+  border-radius: 40px;
+}
+
+.inputTitle{
+  border-width: 0px;
+  border-bottom: 2px solid #555555;
+  font-size: 30px;
+}
+
+.bodyTask{
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 50vh;
+}
+
+.nameTaskInput {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+
+.quill{
+  height: 50vh;
+  max-height: 50vh;
+  /* added these styles */
+  flex: 1;
+  display: flex; 
+  flex-direction: column;
+}
+
+.footerAdd{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-top: 10px;
+}
+
+.footerAdd button{
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  border-width: 0px;
+  background-color: #555555;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 1s;
+}
+
+.footerAdd button:hover{
+  background-color: #8a8a8a;
+}
+
+.bodyNotes{
+  display: flex;
+  width: 80vw;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.detailNotes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #5555555d;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.cardDetailNote{
+  width: 600px;
+  height: 600px;
+  background-color: white;
+  border-radius: 15px;
+  z-index: 2;
+}
+
+.contentDetailNote{
+  background-color: rgb(222, 222, 222);
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  height: 70%;
+  overflow-y: scroll;
+  border-radius: 10px;
+}
+
+.titleDetailNotes{
+  color: #555555;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.discardDelete{
+  border-radius: 10px;
+  height: 40px;
+  width: 80px;
+  border:2px solid #555555;
+}
+
+.btnDelete{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.btnDelete button{
+  margin-left: 20px;
+}
+
+.cardNote{
+  cursor: pointer;
+  height: 120px;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #F1F1F1;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.selectorNote{
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.selectorNote select{
+  width: 150px;
+  height: 35px;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #555555;
+}
+
+.titleNotes{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  font-weight: 600;
+}
+
+.footerNotes{
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+}
+
+.labelNotes{
+  background-color: #555555;
+  color: white;
+  border-radius: 10px;
+  width: 80px;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  display: flex;
+}
+
+.createdAtNote{
+  font-size: 14px;
 }
